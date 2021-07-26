@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B5A0A872685CA300068C57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5A0A862685CA300068C57F /* AppDelegate.swift */; };
+		6B5A0A892685CA300068C57F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5A0A882685CA300068C57F /* SceneDelegate.swift */; };
+		6B5A0A8B2685CA300068C57F /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5A0A8A2685CA300068C57F /* ClockViewController.swift */; };
+		6B5A0A8E2685CA300068C57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A0A8C2685CA300068C57F /* Main.storyboard */; };
+		6B5A0A902685CA340068C57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A0A8F2685CA340068C57F /* Assets.xcassets */; };
+		6B5A0A932685CA340068C57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A0A912685CA340068C57F /* LaunchScreen.storyboard */; };
+		6B5A0A9B2685E1880068C57F /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5A0A9A2685E1880068C57F /* AlarmViewController.swift */; };
+		6B5A0A9D2685E2230068C57F /* StopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5A0A9C2685E2230068C57F /* StopWatchViewController.swift */; };
+		6B5A0A9F2685E2330068C57F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5A0A9E2685E2330068C57F /* TimerViewController.swift */; };
+		6B5A0AA12685EB650068C57F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5A0AA02685EB650068C57F /* HistoryViewController.swift */; };
+		6B73B850269598D2004B84E2 /* extenClockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B73B84F269598D2004B84E2 /* extenClockVC.swift */; };
+		6B73B85226959E45004B84E2 /* extenAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B73B85126959E45004B84E2 /* extenAlarmVC.swift */; };
+		6B98BC39268DB572000DAEFD /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B98BC38268DB572000DAEFD /* alarm.mp3 */; };
+		6B98BC4E2693074C000DAEFD /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B98BC4C2693074C000DAEFD /* AlarmView.swift */; };
+		6B98BC4F2693074C000DAEFD /* AlarmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B98BC4D2693074C000DAEFD /* AlarmView.xib */; };
+		6B98BC52269336BA000DAEFD /* ClocksViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B98BC50269336BA000DAEFD /* ClocksViewCell.swift */; };
+		6B98BC53269336BA000DAEFD /* ClocksViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B98BC51269336BA000DAEFD /* ClocksViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B5A0A832685CA300068C57F /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5A0A862685CA300068C57F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B5A0A882685CA300068C57F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B5A0A8A2685CA300068C57F /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
+		6B5A0A8D2685CA300068C57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B5A0A8F2685CA340068C57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B5A0A922685CA340068C57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B5A0A942685CA340068C57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5A0A9A2685E1880068C57F /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		6B5A0A9C2685E2230068C57F /* StopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewController.swift; sourceTree = "<group>"; };
+		6B5A0A9E2685E2330068C57F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		6B5A0AA02685EB650068C57F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		6B73B84F269598D2004B84E2 /* extenClockVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extenClockVC.swift; sourceTree = "<group>"; };
+		6B73B85126959E45004B84E2 /* extenAlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extenAlarmVC.swift; sourceTree = "<group>"; };
+		6B98BC38268DB572000DAEFD /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
+		6B98BC4C2693074C000DAEFD /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		6B98BC4D2693074C000DAEFD /* AlarmView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmView.xib; sourceTree = "<group>"; };
+		6B98BC50269336BA000DAEFD /* ClocksViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClocksViewCell.swift; sourceTree = "<group>"; };
+		6B98BC51269336BA000DAEFD /* ClocksViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClocksViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B5A0A802685CA300068C57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B5A0A7A2685CA300068C57F = {
+			isa = PBXGroup;
+			children = (
+				6B5A0A852685CA300068C57F /* Watch */,
+				6B5A0A842685CA300068C57F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B5A0A842685CA300068C57F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B5A0A832685CA300068C57F /* Watch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B5A0A852685CA300068C57F /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				6B5A0A8A2685CA300068C57F /* ClockViewController.swift */,
+				6B5A0A9A2685E1880068C57F /* AlarmViewController.swift */,
+				6B5A0A9C2685E2230068C57F /* StopWatchViewController.swift */,
+				6B5A0A9E2685E2330068C57F /* TimerViewController.swift */,
+				6B5A0AA02685EB650068C57F /* HistoryViewController.swift */,
+				6B5A0A8F2685CA340068C57F /* Assets.xcassets */,
+				6B5A0A942685CA340068C57F /* Info.plist */,
+				6B5A0A8C2685CA300068C57F /* Main.storyboard */,
+				6B5A0A912685CA340068C57F /* LaunchScreen.storyboard */,
+				6B5A0A862685CA300068C57F /* AppDelegate.swift */,
+				6B5A0A882685CA300068C57F /* SceneDelegate.swift */,
+				6B98BC38268DB572000DAEFD /* alarm.mp3 */,
+				6B98BC4C2693074C000DAEFD /* AlarmView.swift */,
+				6B98BC4D2693074C000DAEFD /* AlarmView.xib */,
+				6B98BC50269336BA000DAEFD /* ClocksViewCell.swift */,
+				6B98BC51269336BA000DAEFD /* ClocksViewCell.xib */,
+				6B73B84F269598D2004B84E2 /* extenClockVC.swift */,
+				6B73B85126959E45004B84E2 /* extenAlarmVC.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B5A0A822685CA300068C57F /* Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5A0A972685CA340068C57F /* Build configuration list for PBXNativeTarget "Watch" */;
+			buildPhases = (
+				6B5A0A7F2685CA300068C57F /* Sources */,
+				6B5A0A802685CA300068C57F /* Frameworks */,
+				6B5A0A812685CA300068C57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watch;
+			productName = Watch;
+			productReference = 6B5A0A832685CA300068C57F /* Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B5A0A7B2685CA300068C57F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6B5A0A822685CA300068C57F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 6B5A0A7E2685CA300068C57F /* Build configuration list for PBXProject "Watch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B5A0A7A2685CA300068C57F;
+			productRefGroup = 6B5A0A842685CA300068C57F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B5A0A822685CA300068C57F /* Watch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B5A0A812685CA300068C57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5A0A932685CA340068C57F /* LaunchScreen.storyboard in Resources */,
+				6B5A0A902685CA340068C57F /* Assets.xcassets in Resources */,
+				6B5A0A8E2685CA300068C57F /* Main.storyboard in Resources */,
+				6B98BC53269336BA000DAEFD /* ClocksViewCell.xib in Resources */,
+				6B98BC4F2693074C000DAEFD /* AlarmView.xib in Resources */,
+				6B98BC39268DB572000DAEFD /* alarm.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B5A0A7F2685CA300068C57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5A0A9B2685E1880068C57F /* AlarmViewController.swift in Sources */,
+				6B5A0A8B2685CA300068C57F /* ClockViewController.swift in Sources */,
+				6B73B85226959E45004B84E2 /* extenAlarmVC.swift in Sources */,
+				6B98BC52269336BA000DAEFD /* ClocksViewCell.swift in Sources */,
+				6B5A0A872685CA300068C57F /* AppDelegate.swift in Sources */,
+				6B5A0A892685CA300068C57F /* SceneDelegate.swift in Sources */,
+				6B73B850269598D2004B84E2 /* extenClockVC.swift in Sources */,
+				6B5A0A9F2685E2330068C57F /* TimerViewController.swift in Sources */,
+				6B5A0AA12685EB650068C57F /* HistoryViewController.swift in Sources */,
+				6B98BC4E2693074C000DAEFD /* AlarmView.swift in Sources */,
+				6B5A0A9D2685E2230068C57F /* StopWatchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B5A0A8C2685CA300068C57F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5A0A8D2685CA300068C57F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B5A0A912685CA340068C57F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5A0A922685CA340068C57F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B5A0A952685CA340068C57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B5A0A962685CA340068C57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B5A0A982685CA340068C57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG6975UKG7;
+				INFOPLIST_FILE = Watch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mihail.Watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6B5A0A992685CA340068C57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG6975UKG7;
+				INFOPLIST_FILE = Watch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mihail.Watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B5A0A7E2685CA300068C57F /* Build configuration list for PBXProject "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5A0A952685CA340068C57F /* Debug */,
+				6B5A0A962685CA340068C57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5A0A972685CA340068C57F /* Build configuration list for PBXNativeTarget "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5A0A982685CA340068C57F /* Debug */,
+				6B5A0A992685CA340068C57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B5A0A7B2685CA300068C57F /* Project object */;
+}
